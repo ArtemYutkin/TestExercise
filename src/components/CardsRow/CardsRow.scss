@@ -1,0 +1,17 @@
+.CardsRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 100px 0;
+}
+@media screen and (max-width: 450px){
+    .CardsRow {
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        max-width: 450px;
+        width: 100%;
+        margin: 100px 0;
+    }
+}
